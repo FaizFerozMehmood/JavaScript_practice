@@ -4,8 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    .plus{
+        height: 50px;
+        width: 50px;
+    }
+}
+.minus{
+        height: 50px;
+        width: 50px;
+    }
+    .heading{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    </style>
 </head>
 <body>
+    <div class="heading">
+        <h1>Counter APP</h1>
+    </div>
+<div class="container">
+    <button class="plus">+</button>
+    <h4 class="number">0</h4>
+    <button class="minus">-</button>
+
+
+</div>
+
+
+
     <script src="app.js"></script>
+
 </body>
 </html>
