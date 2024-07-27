@@ -17,11 +17,14 @@ counter = 0;
 plusBtn.addEventListener('click',function(){
   counter++
   number.innerText = counter
+  document.body.style.backgroundColor="black"
+
   
 })
 minusBtn.addEventListener('click',function(){
   counter--
   number.innerText=counter
+  document.body.style.backgroundColor="red"
   
  
 })
