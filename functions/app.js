@@ -33,13 +33,18 @@
 
 const btn = document.getElementById('btn');
 const heading = document.getElementById("heading")
+const content = document.querySelector('.content')
+btn.disabled=false
 btn.addEventListener("click",()=>{
     btn.textContent="Loading.."
+    btn.disabled=true
     console.log("Hello world");
     setTimeout(()=>{
     console.log("faiz mahmood");
     heading.textContent="Hi! faiz here!";
+    content.style.border="1px solid black"
     btn.textContent="add"
+    btn.disabled=false
     },2000)
-
+    
 })
