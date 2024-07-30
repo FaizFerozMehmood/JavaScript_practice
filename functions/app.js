@@ -10,11 +10,11 @@
 //       console.log(user,userNms);
 //     }
 // sayHi("HI!","faiz")
-function introducteMe(user,age,proffession){
+function introducteMe(user,age,proffesion){
     // console.log(`${user}`);
     // console.log(`${age}`);
     // console.log(`${proffession}`);
-    return user + age + proffession
+    return user + age + proffesion
 
 
 }
