@@ -10,13 +10,36 @@
 //       console.log(user,userNms);
 //     }
 // sayHi("HI!","faiz")
-function introducteMe(user,age,proffesion){
+// function introducteMe(user,age,proffesion){
     // console.log(`${user}`);
     // console.log(`${age}`);
-    // console.log(`${proffession}`);
-    return user + age + proffesion
+    // return user , age ,proffesion
 
 
-}
-introducteMe("faiz",21,"developer")
-console.log(introducteMe(1,2,3),introducteMe(1,2,3),introducteMe(1,2,3));
+// }
+// setTimeout(() => {
+    // function introducteMe(user,age,proffesion){
+        // console.log(`${user}`);
+        // console.log(`${age}`);
+        // return user , age ,proffesion
+    
+    
+    // }
+        //  introducteMe("faiz",)
+    // console.log(introducteMe("faiz"));
+// }, 2000);
+// introducteMe("faiz",21,"developer")
+// console.log(introducteMe(1,2,3),introducteMe(1,2,3),introducteMe(1,2,3));
+
+const btn = document.getElementById('btn');
+const heading = document.getElementById("heading")
+btn.addEventListener("click",()=>{
+    btn.textContent="Loading.."
+    console.log("Hello world");
+    setTimeout(()=>{
+    console.log("faiz mahmood");
+    heading.textContent="Hi! faiz here!";
+    btn.textContent="add"
+    },2000)
+
+})

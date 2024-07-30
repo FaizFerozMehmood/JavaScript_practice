@@ -44,6 +44,13 @@
 //         });
 //     }
 // });
-const  content = document.getElementById("content")
-const values =`<p>heloo</p>`
-content.innerHTML+=values
+// const  content = document.getElementById("content")
+// const values =`<p>heloo</p>`
+// content.innerHTML+=values
+
+var ele = document.getElementById('paragraph')
+
+
+function myfunction(){
+    ele.remove()
+}
