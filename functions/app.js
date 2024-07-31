@@ -33,7 +33,12 @@
 
 const btn = document.getElementById('btn');
 const heading = document.getElementById("heading")
+const tagNmae = document.getElementsByTagName('h1')
+console.log("tagNmae",tagNmae);
 const content = document.querySelector('.content')
+const remove = document.getElementById('remove')
+console.log(content);
+
 btn.disabled=false
 btn.addEventListener("click",()=>{
     btn.textContent="Loading.."
@@ -48,3 +53,11 @@ btn.addEventListener("click",()=>{
     },2000)
     
 })
+remove.addEventListener("click",()=>{
+    remove.textContent="Please wait"
+    setTimeout(()=>{
+heading.remove()
+
+    },2000)
+})
+remove.textContent="remove"
