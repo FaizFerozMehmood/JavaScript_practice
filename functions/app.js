@@ -58,6 +58,6 @@ remove.addEventListener("click",()=>{
     setTimeout(()=>{
 heading.remove()
 
+remove.textContent="remove"
     },2000)
 })
-remove.textContent="remove"
