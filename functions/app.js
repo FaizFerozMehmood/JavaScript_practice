@@ -31,6 +31,9 @@
 // introducteMe("faiz",21,"developer")
 // console.log(introducteMe(1,2,3),introducteMe(1,2,3),introducteMe(1,2,3));
 
+
+
+
 const btn = document.getElementById('btn');
 const heading = document.getElementById("heading")
 const tagNmae = document.getElementsByTagName('h1')
