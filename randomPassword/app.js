@@ -11,9 +11,21 @@
 //     }
 //  }
 function genNum(){
-    let x = Math.floor(Math.random()*6+1)
-    let y = Math.floor(Math.random()*3+1)
-    let res = x-y
-    console.log(res);
+    let a =[]
+    let x =""
+    let alpha = "abcdef";
+    let special = "!@#$*()"
+    for(let i = 0; i<alpha.length;i++){
+    //  console.log(special[i]);
+     let alphares = alpha[i]
+     let specialres = special[i]
+     
+     let x = parseFloat(Math.floor(Math.random(alphares,specialres)));
+     console.log(x);
+    }
+
+    // let y = Math.floor(Math.random()*3+1)
+    // let res = x+y
+    // console.log(a);
     
 }
